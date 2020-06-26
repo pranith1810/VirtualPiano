@@ -1,0 +1,59 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');*/
+/*the above can also be used for importing font */
+
+body{
+    background-color: darkolivegreen;
+}
+.white_kbd{
+    display: inline-block;
+    background-color: white;
+    border: solid gray 3px;
+    text-align: center;
+    padding: 85px 20px 33px ;
+    margin-left: -10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.black_kbd{
+background-color: black;
+    display: inline-block;
+    border: solid gray 1px;
+    text-align: center;
+    padding: 45px 8px 13px ;
+    color: white;
+    width: 12px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#black1{
+    position: relative;
+    left: -60px;
+}
+#black2{
+    position: relative;
+    left: -45px;
+}
+#black3{
+    position: relative;
+    left: 20px;
+}
+#black4{
+    position: relative;
+    left: 35px;
+}
+#black5{
+    position: relative;
+    left: 50px;
+}
+
+.white-keys{
+    margin: 30% auto;
+    width:max-content;
+}
+
+.black-keys{
+    margin: -40% auto;
+    width:max-content;
+    position: relative;
+    top:10px;
+}
